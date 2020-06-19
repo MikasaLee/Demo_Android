@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tea">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/tea_logout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|top"
+            android:background="#00000000"
+            android:text="注销"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="5dp"
+        android:text="欢迎进入毕业设计指导系统"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginLeft="25dp"
+            android:text="教师姓名："/>
+
+        <TextView
+            android:id="@+id/tea_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginLeft="25dp"
+            android:text="教师编号："/>
+
+        <TextView
+            android:id="@+id/tea_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginLeft="25dp"
+            android:text="所属学院："/>
+
+        <TextView
+            android:id="@+id/tea_college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginLeft="25dp"
+            android:text="教师职称："/>
+
+        <TextView
+            android:id="@+id/tea_grade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        >
+        <TextView
+            android:id="@+id/tea_info"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="25dp"
+            android:padding="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="#00000000"
+            android:text="公告栏：
+         "/>
+
+        <EditText
+            android:id="@+id/tea_groupmessage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#00000000"
+            android:padding="5dp"
+            android:text="群消息: "
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/tea_message"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="发布消息"/>
+
+        <Button
+            android:id="@+id/tea_question"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="查看问题"/>
+
+    </LinearLayout>
+
+</LinearLayout>

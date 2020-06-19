@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/admin_stu">
+
+    <EditText
+        android:id="@+id/edt_stu_number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="学生学号"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/edt_stu_name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="学生姓名"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:id="@+id/edt_stu_college1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="所在学院"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edt_stu_class1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="专业班级"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edt_stu_password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="学生密码"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_stu_update1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="修改学生信息"
+        android:textSize="30sp"
+        android:width="100dp"/>
+
+</LinearLayout>

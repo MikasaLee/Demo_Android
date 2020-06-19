@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/admin_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/root_logout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:gravity="right|top"
+            android:text="注销"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="后台管理界面"
+            android:textSize="45sp"
+            android:textColor="#000000"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+        <Button
+            android:id="@+id/btn_student"
+            android:layout_width="500px"
+            android:layout_height="wrap_content"
+            android:text="学生信息管理"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btn_teacher"
+            android:layout_width="500px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:text="教师信息管理"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btn_group"
+            android:layout_width="500px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:text="学 生 教 师 组"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btn_group_message"
+            android:layout_width="500px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:text="发   布   公   告"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

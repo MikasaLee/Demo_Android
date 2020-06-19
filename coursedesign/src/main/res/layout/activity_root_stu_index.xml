@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/admin_stu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btn_stu_add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="添加学生信息"
+            android:textSize="17.5sp"/>
+
+        <Button
+            android:id="@+id/btn_stu_update"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+
+            android:text="修改学生信息"
+            android:textSize="17.5sp"/>
+
+        <Button
+            android:id="@+id/btn_stu_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="删除学生信息"
+            android:textSize="17.5sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="270px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"
+            android:text="学生姓名："/>
+
+        <TextView
+            android:layout_width="270px"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="学生学号："/>
+
+        <TextView
+            android:layout_width="270px"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="所属学院："/>
+
+        <TextView
+            android:layout_width="270px"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="专业班级："/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_stu_name"
+            android:layout_width="270px"
+            android:layout_height="match_parent"></ListView>
+
+        <ListView
+            android:id="@+id/lv_stu_number"
+            android:layout_width="270px"
+            android:layout_height="match_parent"></ListView>
+
+        <ListView
+            android:id="@+id/lv_stu_college"
+            android:layout_width="270px"
+            android:layout_height="match_parent"></ListView>
+
+        <ListView
+            android:id="@+id/lv_stu_class"
+            android:layout_width="270px"
+            android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+
+</LinearLayout>

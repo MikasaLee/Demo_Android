@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <plant>
+        <name>红花</name>
+        <image>colorAccent</image>
+        <context>红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花红花</context>
+
+    </plant>
+    <plant>
+        <name>黄花</name>
+        <image>colorPrimary</image>
+        <context>黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花黄花</context>
+
+    </plant>
+    <plant>
+        <name>兰花</name>
+        <image>colorPrimaryDark</image>
+        <context>兰花兰花兰花兰花花兰花兰花兰花兰花兰花兰花兰花兰花兰花兰花兰花</context>
+    </plant>
+</info>

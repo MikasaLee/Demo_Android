@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/admin_group">
+
+    <EditText
+        android:id="@+id/edt_group_stu_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="学生学号"
+        android:textSize="30dp"/>
+
+
+    <EditText
+        android:id="@+id/edt_group_tea_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="教师编号"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btn_stu_add_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="提交绑定关系"
+        android:textSize="30sp"
+        android:width="100dp"/>
+
+</LinearLayout>

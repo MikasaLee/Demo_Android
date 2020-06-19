@@ -1,0 +1,1 @@
+include ':app', ':sy1', ':test', ':coursedesign', ':dbdemo'

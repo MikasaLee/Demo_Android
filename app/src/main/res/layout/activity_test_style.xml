@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <!--
+        样式(style)是针对某一个控件设置的
+        主题(theme)是针对某一个activity或者整个application设置
+     -->
+    <TextView
+        style="@style/testStyle_one"
+        android:text="TextView 1"/>
+    <TextView
+        style="@style/testStyle_two"
+        android:text="TextView 2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="25sp"/>
+</LinearLayout>

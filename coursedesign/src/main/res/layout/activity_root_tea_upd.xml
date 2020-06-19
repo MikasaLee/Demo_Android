@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/admin_tea">
+
+    <EditText
+        android:id="@+id/edt_tea_name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="教师姓名"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/edt_tea_number1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="教师编号"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:id="@+id/edt_tea_college1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="所在学院"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:id="@+id/edt_tea_grade1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="教师职称"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/edt_tea_password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:textSize="30sp"
+        />
+    <Button
+        android:id="@+id/btn_tea_update1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="更新教师信息"
+        android:textSize="30sp"
+        android:width="100dp"/>
+
+</LinearLayout>
